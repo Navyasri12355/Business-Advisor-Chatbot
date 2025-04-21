@@ -1,5 +1,3 @@
-# Business-Advisor-Chatbot
-
 # 💼 Business Advisor Chatbot
 
 An AI-powered chatbot built using Streamlit and Google's Gemini API (Generative AI) to help users with business-related queries. It provides insights and advice on topics like finance, marketing, strategy, startups, and more.
