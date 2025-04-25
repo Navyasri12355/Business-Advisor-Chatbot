@@ -14,7 +14,7 @@ def get_business_advice(user_input, conversation_history):
     return response.text, conversation_history
 
 def is_business_related(user_input):
-    business_keywords = ["business", "marketing", "finance", "strategy", "startup", "management", "growth", "investment", "economy", "sales", "profit", "loss"]
+    business_keywords = ["business", "marketing", "finance", "strategy", "startup", "management", "growth", "investment", "economy", "sales", "profit", "loss", "strategies", "company", "field"]
     return any(keyword.lower() in user_input.lower() for keyword in business_keywords)
 
 st.title("Business Advisor Chatbot")
